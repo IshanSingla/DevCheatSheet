@@ -78,10 +78,6 @@
 - [MongoDb](databases/mongodb/README.md)
   </details>
 
-### 🔧 Tools
-
-<details>
-<summary>View cheatsheets</summary>
 
 
 ## 🙌🏼 How to Contribute?
