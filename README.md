@@ -71,7 +71,7 @@
 
 #### SQL
 
-- [MySQL](databases/mysql.sh)
+- [MySQL](databases/mysql/README.md)
 
 #### NoSQL
 
