@@ -85,7 +85,7 @@ const loader = new FontLoader();
 
 loader.load( 'fonts/helvetiker_regular.typeface.json', function ( font ) {
 
-	const geometry = new TextGeometry( 'Hello three.js!', {
+const geometry = new TextGeometry( 'Hello three.js!', {
 		font: font,
 		size: 80,
 		height: 5,
@@ -124,8 +124,8 @@ const mesh = new THREE.Mesh( geometry, material );                              
 
 ### Texture 
 ```python
-    //CubeTextureLoader
-    const scene = new THREE.Scene();
+//CubeTextureLoader
+const scene = new THREE.Scene();
 scene.background = new THREE.CubeTextureLoader()
 	.setPath( 'textures/cubeMaps/' )
 	.load( [
@@ -137,8 +137,8 @@ scene.background = new THREE.CubeTextureLoader()
 		'nz.png'
 	] );                                                                                               Class for loading a CubeTexture. This uses the ImageLoader internally for loading files
 
-	//TextureLoader
-	const texture = new THREE.TextureLoader().load( 'textures/land_ocean_ice_cloud_2048.jpg' );        Class for loading a texture. This uses the ImageLoader internally for loading files.
+//TextureLoader
+const texture = new THREE.TextureLoader().load( 'textures/land_ocean_ice_cloud_2048.jpg' );        Class for loading a texture. This uses the ImageLoader internally for loading files.
  
 ```
 
