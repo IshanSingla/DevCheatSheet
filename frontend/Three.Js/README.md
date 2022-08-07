@@ -135,7 +135,7 @@ scene.background = new THREE.CubeTextureLoader()
 		'ny.png',
 		'pz.png',
 		'nz.png'
-	] );                                                                                               Class for loading a CubeTexture. This uses the ImageLoader internally for loading files
+	] );                                                                                       Class for loading a CubeTexture. This uses the ImageLoader internally for loading files
 
 //TextureLoader
 const texture = new THREE.TextureLoader().load( 'textures/land_ocean_ice_cloud_2048.jpg' );        Class for loading a texture. This uses the ImageLoader internally for loading files.
