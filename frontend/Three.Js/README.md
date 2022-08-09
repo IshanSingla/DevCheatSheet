@@ -247,4 +247,4 @@ loader.load( 'path/to/model.glb', function ( gltf ) {
 ```
 
 
-Made By - Yakshit
+
