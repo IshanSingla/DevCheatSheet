@@ -245,5 +245,12 @@ loader.load( 'path/to/model.glb', function ( gltf ) {
 
 } );
 ```
+### Documentation and Examples 
+```python
+links: https://threejs.org/
+links: https://threejs-journey.com
+links: https://github.com/mrdoob/three.js
+links: https://bruno-simon.com
+````
 
 
